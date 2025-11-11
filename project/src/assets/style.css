@@ -1,0 +1,57 @@
+#logo img{
+    width: 50%;
+}
+
+.app img{
+    width: 100%;
+}
+header {
+    display: grid;
+    margin-bottom: 2rem;
+    background-color: #816362;
+    grid-template-columns: repeat(2, 1fr);
+}
+#logo{
+    display: grid;
+}
+#nav{
+    display: grid;
+}
+#toggle{
+    width: 10%;
+    height: 20%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+#nav-bar {
+    display: none;
+    background-color: olive;
+    width: 200%;
+    text-align: center;
+}
+#nav-bar ul {
+    list-style-type: none;
+}
+#active {
+    display: flex;
+}
+.image{
+    margin: 1rem;
+    display: grid;
+}
+#image_section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#toggle_sword {
+    display: none;
+}
+.image-toggle-pair{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+#image-button{
+    width: 100%;
+    height: 100%;
+}
